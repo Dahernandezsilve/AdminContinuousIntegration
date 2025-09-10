@@ -4,7 +4,7 @@ def _ensure_str(x, name="argument"):
 
 def reverse(s):
     _ensure_str(s, "s")
-    return s[::-1]
+    return s
 
 def count_vowels(s):
     _ensure_str(s, "s")
